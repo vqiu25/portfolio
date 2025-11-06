@@ -28,17 +28,46 @@
 .subtitle {
   font-size: 1rem;
   color: #b0b0b0;
-  margin: 0;
-  margin-bottom: 1rem;
+  margin: 0 0 0.5rem 0;
+}
+.imageLink {
+  position: relative;
+  display: block;
+  cursor: pointer;
 }
 
 .image {
-  margin-bottom: 1rem;
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .description {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: #d0d0d0;
-  margin-top: 0;
+  margin: 0;
+}
+
+.overlayBox {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  color: #000000;
+  border-radius: 999px;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.25s ease;
+}
+
+.imageLink:hover .overlayBox {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .overlayBox {
+    display: none;
+  }
 }

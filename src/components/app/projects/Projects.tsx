@@ -10,6 +10,7 @@ const PROJECTS = [
     description:
       "A block based coding platform that helps students practice AI code comprehension.",
     image: "src/assets/ai-assist.png",
+    link: "https://github.com/vqiu25/part-iv-project",
   },
   {
     category: "🐙 GROUP PROJECT",
@@ -18,6 +19,7 @@ const PROJECTS = [
     description:
       "A pictionary-style game featuring creative powerups and real time multiplayer gameplay.",
     image: "src/assets/inky.png",
+    link: "https://github.com/vqiu25/inky",
   },
   {
     category: "🎨 PERSONAL PROJECT",
@@ -26,6 +28,7 @@ const PROJECTS = [
     description:
       "A simplistic colour based mood tracker to help users log and reflect on their emotions.",
     image: "src/assets/coloree.png",
+    link: "https://github.com/vqiu25/coloree",
   },
 ];
 
@@ -43,6 +46,7 @@ export default function Projects() {
             subtitle={project.subtitle}
             description={project.description}
             image={project.image}
+            link={project.link}
           />
         ))}
       </div>

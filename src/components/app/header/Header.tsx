@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import styles from "./Header.module.css";
-import logo from "../../../assets/textLogo.png";
+import logo from "/textLogo.png";
 
 function getTimeOfDayGreeting() {
   const hour = new Date().getHours();

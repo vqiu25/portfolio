@@ -9,7 +9,7 @@ const PROJECTS = [
     subtitle: "MERN Stack Development",
     description:
       "A block based coding platform that helps students practice AI code comprehension.",
-    image: "src/assets/ai-assist.png",
+    image: "/ai-assist.png",
     link: "https://github.com/vqiu25/part-iv-project",
   },
   {
@@ -18,7 +18,7 @@ const PROJECTS = [
     subtitle: "MERN Stack Development",
     description:
       "A pictionary-style game featuring creative powerups and real time multiplayer gameplay.",
-    image: "src/assets/inky.png",
+    image: "/inky.png",
     link: "https://github.com/vqiu25/inky",
   },
   {
@@ -27,7 +27,7 @@ const PROJECTS = [
     subtitle: "Swift iOS Development",
     description:
       "A simplistic colour based mood tracker to help users log and reflect on their emotions.",
-    image: "src/assets/coloree.png",
+    image: "/coloree.png",
     link: "https://github.com/vqiu25/coloree",
   },
 ];

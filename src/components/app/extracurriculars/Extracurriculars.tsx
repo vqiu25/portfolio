@@ -6,7 +6,7 @@ export default function Extracurriculars() {
     <div>
       <Heading>Extracurriculars</Heading>
       <ExperienceCard
-        imagePath="src/assets/devs.jpeg"
+        imagePath="/devs.jpeg"
         companyName="Developers Society"
         roleName="Competitions Lead"
         description=""
@@ -14,7 +14,7 @@ export default function Extracurriculars() {
         endDate="Present"
       />
       <ExperienceCard
-        imagePath="src/assets/sesa.jpeg"
+        imagePath="/sesa.jpeg"
         companyName="Software Engineering Students Association"
         roleName="Sponsorship Manager"
         description=""

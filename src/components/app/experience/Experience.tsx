@@ -6,7 +6,7 @@ export default function Experience() {
     <div>
       <Heading>Experience</Heading>
       <ExperienceCard
-        imagePath="src/assets/windcave.png"
+        imagePath="/windcave.png"
         companyName="Windcave"
         roleName="SWE Intern"
         description="C++ Development"

@@ -6,7 +6,7 @@ export default function Education() {
     <div>
       <Heading>Education</Heading>
       <ExperienceCard
-        imagePath="src/assets/uni.png"
+        imagePath="/uni.png"
         companyName="University of Auckland"
         roleName="Software Engineering & Mathematics"
         description=""

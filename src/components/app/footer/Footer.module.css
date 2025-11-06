@@ -1,0 +1,29 @@
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.heart {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.heart:hover {
+  animation: beat 0.4s infinite alternate;
+}
+
+@keyframes beat {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}

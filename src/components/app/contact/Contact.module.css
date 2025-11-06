@@ -32,4 +32,9 @@
   font-size: 3rem;
   text-decoration: none;
   color: white;
+  transition: color 0.2s ease;
+}
+
+.right a:hover {
+  color: #cbcbcb;
 }

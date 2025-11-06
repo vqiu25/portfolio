@@ -16,7 +16,7 @@ const PROJECTS = [
     title: "Inky",
     subtitle: "MERN Stack Development",
     description:
-      "A Pictionary-style game featuring creative powerups and real time multiplayer gameplay.",
+      "A pictionary-style game featuring creative powerups and real time multiplayer gameplay.",
     image: "src/assets/inky.png",
   },
   {

@@ -5,9 +5,3 @@
 
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
-
-@media (min-width: 1024px) {
-  .section {
-    padding-top: 5rem;
-  }
-}

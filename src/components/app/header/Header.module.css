@@ -33,10 +33,9 @@
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  padding-right: 0.3rem; /* gives room for the cursor */
+  padding-right: 0.3rem;
 }
 
-/* cursor positioned slightly to the right */
 .greetingInner::after {
   content: "|";
   position: absolute;

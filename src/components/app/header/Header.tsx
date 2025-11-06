@@ -58,7 +58,7 @@ function TypewriterGreeting() {
 
   return (
     <div className={styles.greeting}>
-      <span className={styles.greetingInner}>{visible}</span>
+      <span className={styles.greetingInner}>{visible || "\u00A0"}</span>
     </div>
   );
 }

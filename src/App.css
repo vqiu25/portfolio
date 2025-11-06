@@ -6,17 +6,21 @@
 body {
   background-color: #000;
   color: #fff;
+  padding: 0rem 2rem 0rem 2rem;
 }
 
 .appViewport {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  overflow-y: auto;
+  min-height: 100vh;
 }
 
 .appContent {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.appRoot {
+  width: 100%;
 }

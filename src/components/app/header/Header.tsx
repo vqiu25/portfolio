@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import logo from "../../../assets/textLogo.png";
 
-function Header() {
+export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -11,5 +11,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

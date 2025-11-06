@@ -55,6 +55,11 @@
   animation: fadeIn 0.35s ease;
 }
 
+.detailsRow {
+  display: flex;
+  justify-content: right;
+}
+
 @media (max-width: 700px) {
   .content {
     flex-direction: column;

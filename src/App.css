@@ -24,3 +24,8 @@ body {
 .appRoot {
   width: 100%;
 }
+
+::selection {
+  background: #ffffff;
+  color: #000000;
+}

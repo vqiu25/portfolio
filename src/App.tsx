@@ -9,6 +9,7 @@ import Experience from "./components/app/experience/Experience";
 import Contact from "./components/app/contact/Contact";
 import Line from "./components/utility/line/Line";
 import Footer from "./components/app/footer/Footer";
+import Education from "./components/app/education/Education";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <Interests />
         <Line />
         <Projects />
+        <Line />
+        <Education />
         <Line />
         <Experience />
         <Line />

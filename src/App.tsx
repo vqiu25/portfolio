@@ -7,6 +7,7 @@ import Interests from "./components/app/interests/Interests";
 import Projects from "./components/app/projects/Projects";
 import Experience from "./components/app/experience/Experience";
 import Contact from "./components/app/contact/Contact";
+import Line from "./components/utility/line/Line";
 
 function App() {
   return (
@@ -20,9 +21,13 @@ function App() {
           </main>
         </section>
         <About />
+        <Line />
         <Interests />
+        <Line />
         <Projects />
+        <Line />
         <Experience />
+        <Line />
         <Contact />
       </div>
     </>

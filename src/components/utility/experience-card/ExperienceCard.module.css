@@ -63,4 +63,8 @@
   .dates {
     display: none;
   }
+  .description {
+    margin-left: 0;
+    display: block;
+  }
 }

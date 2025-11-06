@@ -77,6 +77,10 @@
   .details {
     font-size: 1.2rem;
   }
+  .detailsRow {
+    display: flex;
+    justify-content: left;
+  }
 }
 
 @keyframes fadeIn {

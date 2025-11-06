@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -25,9 +25,17 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   min-width: 320px;
   min-height: 100vh;
+}
+
+@media (min-width: 900px) {
+  body {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 h1 {

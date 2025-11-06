@@ -29,3 +29,24 @@ body {
   background: #ffffff;
   color: #000000;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

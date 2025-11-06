@@ -8,7 +8,7 @@ const PROJECTS = [
     title: "AI Assist Problems",
     subtitle: "MERN Stack Development",
     description:
-      "A block based coding platform that helps students practice code comprehension and writing alongside AI.",
+      "A block based coding platform that helps students practice AI code comprehension.",
     image: "src/assets/ai-assist.png",
   },
   {
@@ -16,7 +16,7 @@ const PROJECTS = [
     title: "Inky",
     subtitle: "MERN Stack Development",
     description:
-      "A fast paced online Pictionary-style game featuring creative powerups and real time multiplayer gameplay.",
+      "A Pictionary-style game featuring creative powerups and real time multiplayer gameplay.",
     image: "src/assets/inky.png",
   },
   {

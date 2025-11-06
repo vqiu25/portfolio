@@ -5,7 +5,10 @@
 }
 
 .name {
-  font-size: 25rem;
+  font-size: clamp(5rem, 20vw, 20rem);
   font-weight: bold;
   margin: 0;
+  margin-bottom: 2rem;
+  line-height: 0.9;
+  word-break: break-word;
 }

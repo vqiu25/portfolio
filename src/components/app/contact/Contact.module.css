@@ -38,3 +38,21 @@
 .right a:hover {
   color: #cbcbcb;
 }
+
+@media (max-width: 700px) {
+  .contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+  .right {
+    align-items: flex-start;
+  }
+  .location {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .right a {
+    font-size: 1.5rem;
+  }
+}

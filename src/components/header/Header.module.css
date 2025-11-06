@@ -1,0 +1,23 @@
+.header {
+  left: 0;
+  right: 0;
+  padding: 2rem 2rem 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  width: 1.5rem;
+  object-fit: contain;
+}
+
+.greeting {
+  color: white;
+  font-size: 1.1rem;
+}

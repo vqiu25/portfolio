@@ -1,0 +1,22 @@
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.appViewport {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.appContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

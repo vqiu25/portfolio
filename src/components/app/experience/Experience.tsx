@@ -8,7 +8,7 @@ export default function Experience() {
       <ExperienceCard
         imagePath="src/assets/windcave.png"
         companyName="Windcave"
-        roleName="Software Intern"
+        roleName="SWE Intern"
         description="C++ Development"
         startDate="Nov 2025"
         endDate="Present"

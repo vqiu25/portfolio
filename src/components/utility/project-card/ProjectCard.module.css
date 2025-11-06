@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.textTop {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.category {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #9b9b9b;
+  margin: 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.image {
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #d0d0d0;
+  margin-top: 0;
+}

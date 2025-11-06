@@ -15,7 +15,7 @@
   align-items: center;
   gap: 1.5rem;
   cursor: pointer;
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: 3rem;
   font-weight: 800;
   text-transform: lowercase;
   line-height: 1.1;

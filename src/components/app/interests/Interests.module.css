@@ -1,0 +1,67 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  text-transform: lowercase;
+  line-height: 1.1;
+  opacity: 0.35;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.item + .item {
+  margin-top: 1.2rem;
+}
+
+.item:hover {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+.itemActive {
+  opacity: 1;
+}
+
+.itemCircle {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 999px;
+  background: #fff;
+  transform: scale(0);
+  transform-origin: center;
+  transition: transform 0.25s ease;
+}
+
+.itemActive .itemCircle {
+  transform: scale(1);
+}
+
+.details {
+  font-size: 1.6rem;
+  animation: fadeIn 0.35s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

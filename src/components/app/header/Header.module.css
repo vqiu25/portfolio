@@ -25,4 +25,32 @@
 .greeting {
   color: white;
   font-size: 1.1rem;
+  text-align: right;
+}
+
+.greetingInner {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  padding-right: 0.3rem; /* gives room for the cursor */
+}
+
+/* cursor positioned slightly to the right */
+.greetingInner::after {
+  content: "|";
+  position: absolute;
+  right: -0.2rem;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
+  }
 }

@@ -10,6 +10,7 @@ import Contact from "./components/app/contact/Contact";
 import Line from "./components/utility/line/Line";
 import Footer from "./components/app/footer/Footer";
 import Education from "./components/app/education/Education";
+import Extracurriculars from "./components/app/extracurriculars/Extracurriculars";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
         <Education />
         <Line />
         <Experience />
+        <Line />
+        <Extracurriculars />
         <Line />
         <Contact />
         <Footer />
